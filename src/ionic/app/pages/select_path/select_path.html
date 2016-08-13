@@ -1,0 +1,23 @@
+<ion-content>
+    <h2 style="text-align:center; margin-top: 15%;">Welcome to QuickCan!</h2>
+    <ion-row>
+        <ion-col>
+            <p style="text-align:center"></p>
+            <ion-list>
+                <ion-item>
+                    <ion-label>List ID</ion-label>
+                    <ion-input type="text" [(ngModel)]="list_id"></ion-input>
+                </ion-item>
+                <ion-item>
+                    <ion-label>Number of Canvassers</ion-label>
+                    <ion-input type="number" [(ngModel)]="num_canvassers"></ion-input>
+                </ion-item>
+                <ion-item>
+                    <ion-label>Canvasser Number</ion-label>
+                    <ion-input type="number" [(ngModel)]="canvasser_num"></ion-input>
+                </ion-item>
+            </ion-list>
+            <button style="margin-left: 25%;" (click)="submit()">Submit</button>
+        </ion-col>
+    </ion-row>
+</ion-content>
