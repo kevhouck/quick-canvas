@@ -1,5 +1,5 @@
 # QuickCanvas
-###Built for MadHack Spring 2016 Hackathon###
+###Built for MadHacks Spring 2016 Hackathon###
 We received honorable mention, or 5th out of 15-20 teams. The hackathon lasted for about 12 hours. The team consisted of Kevin Houck and Gabriel Elkind
 
 ###Description of Problem###
